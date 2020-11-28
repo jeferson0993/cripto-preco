@@ -5,7 +5,16 @@ document
     .getElementById("content").style.display = "none";
     document
     .getElementById("about").style.display = "";
-}, false);
+});
+
+document
+.getElementById("about-menu-mobile")
+.addEventListener("click", () => {
+    document
+    .getElementById("about").style.display = "";
+    document
+    .getElementById("content").style.display = "none";
+});
 
 document
 .getElementsByClassName("bitcoin-menu")[0]
@@ -14,7 +23,16 @@ document
     .getElementById("about").style.display = "none";
     document
     .getElementById("content").style.display = "";
-}, false);
+});
+
+document
+.getElementById("bitcoin-menu-mobile")
+.addEventListener("click", () => {
+    document
+    .getElementById("about").style.display = "none";
+    document
+    .getElementById("content").style.display = "";
+});
 
 document
 .getElementById("Open-user-menu")
@@ -41,14 +59,3 @@ document
         }
     })();
 });
-
-/*
-function updateData() {
-    console.log( clientDateTime() );
-    var price = bitcoinDataHandler();
-    console.log( "updateData()", { price } );
-    document.getElementById("btc_val").innerHTML = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(price);
-}
-setInterval(function () {
-    updateData();
-}, 2000);*/

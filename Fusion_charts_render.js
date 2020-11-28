@@ -1,6 +1,6 @@
 FusionCharts.ready(function () {
     var fusioncharts = new FusionCharts({
-        id: "stockRealTimeChart",
+        id: "bitcoinRealTimeChart",
         type: 'realtimeline',
         renderAt: 'chart-container',
         width: '100%',
@@ -9,7 +9,7 @@ FusionCharts.ready(function () {
         dataSource: {
             "chart": {
                 "caption": "Preço Bitcoin em Tempo real",
-                "subCaption": "",
+                "subCaption": "por Jeferson Ferreira - github.com/jeferson0993",
                 "xAxisName": "Horário",
                 "yAxisName": "BRL (R$ - REAL)",
                 "numberPrefix": "R$",
@@ -38,7 +38,7 @@ FusionCharts.ready(function () {
             "initialized": function (e) {
                 function updateData() {
                     // Get reference to the chart using its ID
-                    var chartRef = FusionCharts("stockRealTimeChart"),
+                    var chartRef = FusionCharts("bitcoinRealTimeChart"),
                         x_axis = clientDateTime(),
                         y_axis = bitcoinDataHandler(),
                         strData = "&label=" + x_axis + "&value=" + y_axis;
