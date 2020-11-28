@@ -1,9 +1,11 @@
 // Register service worker to control making site work offline
 
 if("serviceWorker" in navigator) {
-  navigator.serviceWorker
-           .register("/sw.js")
-           .then(function() { console.log("Service Worker Registered With %cSuccess!","color: green"); });
+  navigator
+  .serviceWorker
+  .register("/cripto-preco/sw.js")
+  .then(function() { console.log("Service Worker Registered With %cSuccess!","color: green"); })
+  .catch(function (error) { console.error(error.message); });
 }
 
 // Code to handle install prompt on desktop
