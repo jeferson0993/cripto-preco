@@ -2,15 +2,15 @@ self.addEventListener("install", function(e) {
  e.waitUntil(
    caches.open("cripto-preco").then(function(cache) {
      return cache.addAll([
-       "/cripto-preco/",
-       "/cripto-preco/sw.js",
-       "/cripto-preco/app.js",
-       "/cripto-preco/index.js",
-       "/cripto-preco/index.html",
-       "/cripto-preco/brasil.svg",
-       "/cripto-preco/estados-unidos.svg",
+       "/",
+       "/sw.js",
+       "/app.js",
+       "/index.js",
+       "/index.html",
+       "/brasil.svg",
+       "/estados-unidos.svg",
+       "/Fusion_charts_render.js",
        "/cripto-preco/Fusion_charts_render.js",
-       "/cripto-preco/cripto-preco/Fusion_charts_render.js",
      ]);
    })
  );
