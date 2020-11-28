@@ -90,8 +90,10 @@ Ferramentas e técnologias utilizadas neste projeto:
 <!-- Começando -->
 ## Começando
 
-Para obter uma cópia local instalada e funcionando, siga estas etapas simples de exemplo.
-  > acesse o site > clique no botão [ Instalar aplicativo ]
+Para obter uma cópia local do projeto, digite o comando:
+  ```
+  git clone https://github.com/jeferson0993/cripto-preco.git
+  ```
 
 
 <!-- Pré-requisitos -->
@@ -103,7 +105,7 @@ Qualquer aparelho computador, tablet e celular com android ou ios, que tenha o n
 <!-- Instalação -->
 ### Instalação
 
-1. Acesse o [site](https://github.com/jeferson0993/cripto-preco)
+1. Acesse o [site](https://jeferson0993.github.io/cripto-preco/)
 2. Clique no botão instalar:
 
 [![Product Name Screen Shot][install-screenshot]](https://jeferson0993.github.io/cripto-preco)
@@ -146,12 +148,6 @@ Jeferson Ferreira - jeferson0993@gmail.com
 
 Link do Projeto: [https://github.com/jeferson0993/cripto-preco](https://github.com/jeferson0993/cripto-preco)
 
-
-<!-- Reconhecimentos -->
-## Reconhecimentos
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Font Awesome](https://fontawesome.com)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
