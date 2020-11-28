@@ -3,14 +3,13 @@ self.addEventListener("install", function(e) {
    caches.open("cripto-preco").then(function(cache) {
      return cache.addAll([
        "/cripto-preco/",
-       "/cripto-preco/sw.js",
        "/cripto-preco/app.js",
        "/cripto-preco/index.js",
        "/cripto-preco/index.html",
        "/cripto-preco/brasil.svg",
        "/cripto-preco/estados-unidos.svg",
        "/cripto-preco/Fusion_charts_render.js",
-       "/cripto-preco/Fusion_charts_render.js",
+       "/cripto-preco/Fetch_the_value_of_Bitcoin.js",
      ]);
    })
  );
