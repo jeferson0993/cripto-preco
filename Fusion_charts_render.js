@@ -43,9 +43,7 @@ FusionCharts.ready(function () {
                         y_axis = bitcoinDataHandler(),
                         strData = "&label=" + x_axis + "&value=" + y_axis;
                     // Feed it to chart.
-                    chartRef.feedData(strData);                 
-                    litecoinDataHandler()
-                    ethereumDataHandler();
+                    chartRef.feedData(strData);
                 }
                 e.sender.chartInterval = setInterval(function () {
                     updateData();

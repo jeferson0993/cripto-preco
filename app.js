@@ -41,3 +41,14 @@ document
         }
     })();
 });
+
+/*
+function updateData() {
+    console.log( clientDateTime() );
+    var price = bitcoinDataHandler();
+    console.log( "updateData()", { price } );
+    document.getElementById("btc_val").innerHTML = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(price);
+}
+setInterval(function () {
+    updateData();
+}, 2000);*/
