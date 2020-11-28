@@ -3,7 +3,7 @@
 if("serviceWorker" in navigator) {
   navigator
   .serviceWorker
-  .register("/cripto-preco-service-worker.js")
+  .register("/cripto-preco/cripto-preco-service-worker.js")
   .then(function() { console.log("Service Worker Registered With %cSuccess!","color: green"); })
   .catch(function (error) { console.error(error.message); });
 }
