@@ -2,10 +2,10 @@ self.addEventListener("install", function(e) {
  e.waitUntil(
    caches.open("cripto-preco").then(function(cache) {
      return cache.addAll([
-       "/",
-       "/index.html",
-       "/index.js",
-       "/app.js"
+       "/cripto-preco/",
+       "/cripto-preco/index.html",
+       "/cripto-preco/index.js",
+       "/cripto-preco/app.js"
      ]);
    })
  );
