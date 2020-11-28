@@ -138,7 +138,7 @@ As contribuições são o que torna a comunidade de código aberto um lugar incr
 <!-- Licença -->
 ## Licença
 
-Distribuído sob a licença MIT. Veja a [`LICENÇA`](https://github.com/jeferson0993/cripto-preco/blob/master/LICENSE) para mais informações.
+Distribuído sob a licença MIT. Veja a [`LICENÇA`](https://github.com/jeferson0993/cripto-preco/blob/main/LICENSE) para mais informações.
 
 
 <!-- Contato -->
@@ -161,7 +161,7 @@ Link do Projeto: [https://github.com/jeferson0993/cripto-preco](https://github.c
 [issues-shield]: https://img.shields.io/github/issues/jeferson0993/cripto-preco.svg?style=for-the-badge
 [issues-url]: https://github.com/jeferson0993/cripto-preco/issues
 [license-shield]: https://img.shields.io/github/license/jeferson0993/cripto-preco.svg?style=for-the-badge
-[license-url]: https://github.com/jeferson0993/cripto-preco/blob/master/LICENSE
+[license-url]: https://github.com/jeferson0993/cripto-preco/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jeferson-ferreira-4a036b143/
 [product-screenshot]: screenshot.png
