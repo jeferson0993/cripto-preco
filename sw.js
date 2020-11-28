@@ -5,7 +5,8 @@ self.addEventListener("install", function(e) {
        "/cripto-preco/",
        "/cripto-preco/index.html",
        "/cripto-preco/index.js",
-       "/cripto-preco/app.js"
+       "/cripto-preco/app.js",
+       "/cripto-preco/site.webmanifest",
      ]);
    })
  );
