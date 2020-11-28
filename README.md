@@ -138,7 +138,7 @@ As contribuições são o que torna a comunidade de código aberto um lugar incr
 <!-- Licença -->
 ## Licença
 
-Distribuído sob a licença MIT. Veja a [`LICENÇA`](https://github.com/jeferson0993/cripto-preco/blob/master/LICENSE.md) para mais informações.
+Distribuído sob a licença MIT. Veja a [`LICENÇA`](https://github.com/jeferson0993/cripto-preco/blob/master/LICENSE) para mais informações.
 
 
 <!-- Contato -->
