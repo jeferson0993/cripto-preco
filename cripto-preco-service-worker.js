@@ -10,7 +10,7 @@ self.addEventListener("install", function(e) {
        "/brasil.svg",
        "/estados-unidos.svg",
        "/Fusion_charts_render.js",
-       "/cripto-preco/Fusion_charts_render.js",
+       "/Fusion_charts_render.js",
      ]);
    })
  );
