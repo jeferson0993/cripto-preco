@@ -19,7 +19,11 @@
   <p align="center">
     A companhe a cotação do bitcoin em (BRL - R$) real e (USD - $) dolar.
     <br />
-    <a href="https://github.com/jeferson0993/cripto-preco"><strong>Demonstração »</strong></a>
+    <br />
+    <strong>Me pague um cafézinho</strong><br />
+    <i>bc1qk2up2058008rwnh3jkyhhwfg7450nzmrk0ms4j</i>
+    <br />
+    <i>1PKTbhTEYe78EJUs4i3rkmNCtatNRMmUFb</i>
     <br />
     <br />
     <a href="https://jeferson0993.github.io/cripto-preco/">Ir ao site</a>
