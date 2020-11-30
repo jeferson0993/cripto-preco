@@ -122,6 +122,8 @@ function renderWallets(wallets) {
     wallets.forEach(function (item) {
         const element = document.createElement('div');
         element.setAttribute('class', 'item');
+        element.setAttribute('class', 'bg-indigo-600');
+        element.setAttribute('class', 'my-1');
         element.setAttribute('data-key', item.id);
 
         element.innerHTML = `    
